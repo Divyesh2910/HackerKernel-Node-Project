@@ -11,3 +11,4 @@ exports.sendToken = (admin, statusCode, res) => {
     
     res.json({token});
 };
+// 

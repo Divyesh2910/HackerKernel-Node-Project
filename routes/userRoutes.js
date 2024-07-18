@@ -24,3 +24,4 @@ router.get("/download", isAuthenticated, downloadUsersAndTasks);
 router.get("/tasks/:id", isAuthenticated, fetchUserTasksById)
 
 module.exports = router
+// 

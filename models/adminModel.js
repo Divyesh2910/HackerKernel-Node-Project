@@ -50,3 +50,4 @@ adminModel.methods.getjwttoken = function(){
 const Admin = mongoose.model("admin", adminModel);
 
 module.exports = Admin;
+// 

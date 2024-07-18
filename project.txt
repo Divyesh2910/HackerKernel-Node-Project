@@ -1,0 +1,14 @@
+step-1. create admin -> a. registerAdmin b. loginAdmin
+
+step-2. homepage, logout button, dashboard
+
+step-3. createUser button, 
+create button me click karuga to task bhi vahi assign karuga 
+
+step-4. read user bhi bnana padega
+
+step-5. edit user bhi bnana padega
+
+step-6. delete user bhi bnana padega
+
+step-7. export button

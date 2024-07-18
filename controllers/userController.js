@@ -1,7 +1,6 @@
 const {catchAsyncErrors} = require("../middlewares/catchAsyncErrors");
 const User = require("../models/userModel");
 const Task = require("../models/taskModel");
-// const ExcelJS = require('exceljs');
 const errorHandler = require("../utils/errorHandler");
 const path = require("path");
 const fs = require("fs");
@@ -57,7 +56,7 @@ exports.downloadUsersAndTasks = catchAsyncErrors(async (req, res, next) => {
         if (err) {
             next(err);
         } else {
-            fs.unlinkSync(filePath); // Remove the file after download
+            fs.unlinkSync(filePath);
         }
     });
 });
